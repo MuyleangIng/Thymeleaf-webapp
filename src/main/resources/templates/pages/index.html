@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+layout:decorate="~{layouts/master-layout}">
+<head>
+    <meta charset="UTF-8">
+    <title>INDEX</title>
+
+</head>
+<body>
+<main layout:fragment="main-contain">
+    <!--  individual web page content  -->
+    <div th:replace="~{sections/banner-area}"></div>
+    <div th:replace="~{sections/section1}"></div>
+
+</main>
+
+
+ <script src="/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
